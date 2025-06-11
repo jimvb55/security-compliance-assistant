@@ -1,4 +1,30 @@
-PyPDF2
-sentence-transformers
-faiss-cpu
-numpy
+# Security Compliance Assistant Dependencies
+
+# API
+fastapi>=0.100.0
+uvicorn>=0.22.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# Embedding and Vector Store
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Document Processing
+pypdf>=3.15.0
+python-docx>=0.8.11
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Utility
+tqdm>=4.65.0
+requests>=2.31.0
+
+# Optional - Azure OpenAI (uncomment if needed)
+# openai>=1.3.0
+# azure-identity>=1.13.0
+
+# Optional - Anthropic (uncomment if needed)
+# anthropic>=0.5.0
